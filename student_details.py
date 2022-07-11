@@ -46,7 +46,18 @@ Make sure you fill in the right details.
 
 def my_details():
   """Return a dictionary with your details in the format as specified in the above instructions"""
-  pass
+names = {'name': {'pavan' , 'chaitanya'},
+  'roll-number':'0046',
+  'branch':'ece',
+  'specialization':'aiml',
+  'email-id':'pperumal@gitam.in',
+  'moodle-id':'vu21eece0100046',
+  'github-id':'pperumal@gitam.in',
+  'replit-id':'@PERUMALLA-PAVA1',
+  'semester':'2',
+  'year':'1'
+}
+  return names
 
 
 # now call your function
